@@ -1,0 +1,123 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-image: url(img/palermostreet.jpg);
+	font-family: 'Nothing You Could Do';
+	font-size: 22px;
+	overflow-x: hidden;
+}
+.opacitets-box {
+	position: relative;
+	width: -webkit-fill-available;
+	height: 130px;
+	float: left;
+	padding: 20px;
+	background-color: #fff;
+	opacity: 0.5;
+}
+.opacitets-box2 {
+	position: relative;
+	width: -webkit-fill-available;
+	height: 70px;
+	float: left;
+	padding: 20px;
+	background-color: #fff;
+	opacity: 0.5;
+}
+div#mellanrum {
+	margin-block-start: auto;
+	margin-block-end: 1000px;
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	color: #999;
+}
+#meny {
+	margin: 20px;
+	padding: 0;
+	list-style: none;
+}
+#meny li {
+	display: inline;
+	list-style-type: none;
+	padding: 0 20px 0 0;
+}
+#mobileMeny {
+	margin: 20px;
+	padding: 0;
+	list-style: none;
+}
+#mobileMeny li {
+	display: inline;
+	list-style-type: none;
+	padding: 0 20px 0 0;
+}
+nav.mobileNav {
+	display: none;
+}
+header {
+	text-align: center;
+}
+h1 {
+	text-align: center;
+}
+h3 {
+	text-align: center;
+	margin-bottom: 0px;
+}
+h4 {
+	text-align: center;
+	margin-bottom: 100px;
+}
+#öppettider {
+	text-align: center;
+	margin-bottom: 50px;
+}
+#bild {
+	margin-bottom: 30px;
+}
+#pizzor {
+	margin: 30px;
+	padding: 0;
+	list-style: none;
+}
+#pizzor li {
+	display: table-cell;
+	list-style-type: none;
+	padding: 0 20px 0 0;
+	max-width: 700px#
+}
+div.MobilPizzor {
+	display: none;
+}
+h1 {
+	text-align: center;
+}
+h4 {
+	text-align: center;
+	margin-bottom: 100px;
+}
+@media only screen and (max-width: 600px) {
+	div.MainPizzor {
+		display: none;
+	}
+	div.MobilPizzor {
+		display: block;
+		margin-bottom: 30px;
+	}
+	nav.mainNav {
+		display: none;
+	}
+	nav.mobileNav {
+		display: block;
+	}
+}

@@ -1,0 +1,85 @@
+body, html {
+	height: 100vh;
+	margin: 0;
+	font-family: 'Nothing You Could Do';
+	font-size: 22px;
+	color: rgba(0, 0, 0, 0.90);
+	font-size: 16px;
+}
+.bakgrundsbild1, .bakgrundsbild2, .bakgrundsbild3 {
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.bakgrundsbild1 {
+	background-image: url("img/palermobakgrund.jpg");
+	min-height: 500px;
+	opacity: 0.80;
+}
+.bakgrundsbild2 {
+	background-image: url("img/palermobyggnad.jpg");
+	min-height: 400px;
+	opacity: 0.80;
+}
+.bakgrundsbild3 {
+	background-image: url("img/katedral.jpg");
+	min-height: 400px;
+	opacity: 0.70;
+}
+.headerbox {
+	width: 100%;
+	text-align: center;
+	font-size: 50px;
+	padding: 10px 0;
+	background-color: rgba(156, 117, 52, 1.00);
+}
+.infobox {
+	position: absolute;
+	left: 0;
+	top: 30%;
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	color: rgba(0, 0, 0, 1.00);
+}
+.textbox1 {
+	text-align: center;
+	color: rgba(255, 255, 255, 0.90);
+	padding: 30px 30px;
+	text-align: justify;
+	background-color: rgba(156, 117, 52, 1.00);
+}
+.textbox2 {
+	text-align: center;
+	color: rgba(255, 255, 255, 0.90);
+	padding: 30px 30px;
+	text-align: justify;
+	background-color: rgba(156, 117, 52, 1.00);
+}
+.textbox3 {
+	text-align: center;
+	color: rgba(255, 255, 255, 0.90);
+	padding: 30px 30px;
+	text-align: justify;
+	background-color: rgba(156, 117, 52, 1.00);
+}
+a:link {
+	color: #000;
+	text-decoration: none;
+}
+a:visited {
+	color: #000;
+	text-decoration: none;
+}
+a:hover {
+	color: #999;
+}
+/* Stänger av effekten på smartphones och surfplattor */
+
+@media only screen and (max-device-width: 1024px) {
+	.bakgrundsbild1, .bakgrundsbild2, .bakgrundsbild3 {
+		background-attachment: scroll;
+	}
+}
