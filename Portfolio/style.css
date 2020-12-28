@@ -17,14 +17,20 @@ nav.navbar.navbar-expand-lg.navbar-dark.fixed-top.scrolling-navbar {
 	max-height:600px;
 }
 
-/*Bild på Ux-map*/
+/*Bild på Ux-map
 img.img-fluid {
-    float: left;
+    float: left;*/
 }
 /*Text bredvid bild på Ux-map*/
 .col-lg-7 {
     float: left;
 }
+/*Projekt beskrivning*/
+p.grey-text {
+    min-height: 80px;
+}
+
+
 /*Bild About me*/
 img.rounded-circle.img {
     max-width: 250px;
