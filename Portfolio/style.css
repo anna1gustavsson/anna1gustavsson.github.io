@@ -1,0 +1,142 @@
+
+/*Bakgrundsfärgen på navbar*/
+.navbar{
+	
+    background-color: #FCAC92;
+}
+nav.navbar.navbar-expand-lg.navbar-dark.fixed-top.scrolling-navbar {
+    background-color: #FCAC92;
+}
+/*Bakgrundsbilden på översta fältet*/
+.intro-section{
+	background-image:img/background;
+	
+}
+/*Storleken på översta fältet*/
+.view{
+	max-height:600px;
+}
+
+/*Bild på Ux-map*/
+img.img-fluid {
+    float: left;
+}
+/*Text bredvid bild på Ux-map*/
+.col-lg-7 {
+    float: left;
+}
+/*Bild About me*/
+img.rounded-circle.img {
+    max-width: 250px;
+}
+/*rubrik about me*/
+h2.h1-responsive.font-weight-bold.mb-5 {
+    padding-top: 60px;
+}
+
+
+/*Bilder Testimonials*/
+img.rounded-circle.img-fluid {
+    max-width: 250px;
+	margin-left: 50px;
+	margin-top: 20px;
+}
+
+footer.page-footer .footer-copyright {
+    overflow: hidden;
+    color: rgba(255,255,255,0.6);
+    background-color: rgb(252 172 146);
+	
+}
+img.img-fluid.z-depth-1-half {
+    padding: 10px;
+    margin: 13px;
+}
+
+/*mellanrum 100px*/
+
+div.space {
+    padding-bottom: 100px;
+   
+
+}
+
+h3.display-3.font-weight-bold.white-text.mb-0.pt-md-5.pt-5 {
+    font-family: 'Kaushan Script', cursive;
+}
+/*Mailknappen*/
+a.btn.btn-black.btn-md.waves-effect.waves-light {
+    display: block;
+}
+.mdb-lightbox figure {
+    float: left;
+    margin: 0;
+}
+.footer {
+ 
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:#FCAC92;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  
+}
+/* Required for full background image */
+/*
+html,
+body,
+header,
+#intro-section {
+    height: 100%;
+}*/
+
+@media (max-width: 740px) {
+    html,
+    body,
+    header,
+    #intro-section {
+        height: 100vh;
+    }
+}
+
+
+
+
+
+
+
+.img-gradient:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(220, 66, 37, 0.5)), color-stop(100%, rgba(0, 47, 75, 0.5)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(0, 47, 75, 0.5) 0%, rgba(220, 66, 37, 0.5) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(0, 47, 75, 0.5) 0%, rgba(220, 66, 37, 0.5) 100%);
+    /* Opera 11.10+ */
+    /* IE10+ */
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 47, 75, 0.5)), to(rgba(220, 66, 37, 0.5)));
+    background: linear-gradient(to bottom, rgba(0, 47, 75, 0.5) 0%, rgba(220, 66, 37, 0.5) 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002f4b', endColorstr='#00000000', GradientType=0);
+    /* IE6-9 */
+}
+
+
+@media (max-width: 740px){
+	img.rounded-circle.img-fluid {
+    max-width: 250px;
+	margin-left: 130px;
+	margin-top: 20px;
+}	
+	
+	
+}
