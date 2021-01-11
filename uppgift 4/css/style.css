@@ -1,0 +1,276 @@
+/*Indexpage gallery*/
+
+.gallery {
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+	-webkit-column-width: 33%;
+	-moz-column-width: 33%;
+	column-width: 33%;
+}
+.gallery .pics {
+	-webkit-transition: all 350ms ease;
+	transition: all 350ms ease;
+}
+.gallery .animation {
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+.mainBody {
+	width: 75%;
+	margin: auto;
+}
+.row {
+	padding-top: 50px;
+}
+/*Profilepage gallery */
+
+.profilsidan {
+	overflow-x: hidden;
+}
+.col {
+	padding-top: 50px;
+}
+.avatar.mx-auto.white {
+	float: right;
+}
+.button0 {
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+.btn-outline-default {
+	color: gray!important;
+	background-color: transparent!important;
+	border: 2px solid gray!important;
+}
+.button1 {
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+/*Profilepage contact*/
+
+h5.font-weight-bold {
+	color: black;
+}
+p.mb-4.pb-2 {
+	color: black;
+}
+.rgba-black-strong, .rgba-black-strong:after {
+	background-color: white!important;
+}
+.btn-primary {
+	color: #fff;
+	background-color: #82ad8e!important;
+}
+/*Profilepage media adjust*/
+
+@media only screen and (max-width: 600px) {
+	body {
+		overflow-x: hidden;
+	}
+	.picture {
+		display: none;
+	}
+	.container {
+		column-count: 1;
+	}
+}
+/*Loginpage media adjust*/
+
+@media only screen and (max-width: 900px) {
+	.card {
+		margin: 0px;
+	}
+}
+/*Loginpage margins around*/
+
+#logincard {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	margin-left: 400px;
+	margin-right: 400px;
+	min-width: 400px;
+}
+/* Loginpage color*/
+
+.info-color {
+	background-color: #82ad8e!important;
+}
+/*Contactpage*/
+
+.map-container-section {
+	overflow: hidden;
+	padding-bottom: 56.25%;
+	position: relative;
+	height: 0;
+}
+.map-container-section iframe {
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}
+div#map-container-section {
+	margin-right: 85px;
+}
+.blue.accent-1 {
+	background-color: #82ad8e !important;
+}
+/*Contactpage contactform */
+
+.form-header {
+	background-color: #82ad8e;
+	color: #fff;
+	padding: 1rem;
+	margin-top: -3.13rem;
+	margin-bottom: 3rem;
+	color: #fff;
+	text-align: center;
+	border-radius: .125rem;
+	-webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+/*Submitbotton*/
+
+.btn-light-blue {
+	color: #fff;
+	background-color: #82ad8e !important;
+}
+/*Background card*/
+
+.card {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+/*icons Contact info*/
+
+#iconer {
+	margin: 10px;
+	vertical-align: middle;
+	border-radius: 50%;
+	width: 59px;
+	height: 50px;
+}
+.fa, .fas {
+	font-weight: 900;
+	color: #fff;
+	padding-top: 14px;
+}
+p.mb-md-0 {
+	padding-bottom: 30px;
+}
+/*Navbar*/
+
+.secondary-color {
+	background-color: #82ad8e!important;
+}
+img.rounded-circle.z-depth-0 {
+	height: 40px;
+}
+@media only screen and (max-width: 900px) {
+	.picture {
+		display: none;
+	}
+}
+	/*Footer*/
+	footer {
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+	}
+	.footer-copyright {
+		background-color: #82ad8e;
+	}
+	footer p {
+		margin-bottom: .25rem;
+}
+
+	/*Media adjust gallery*/
+	@media (max-width: 450px) {
+		.gallery {
+			-webkit-column-count: 1;/*Indexsida Fotogalleri*/
+
+.gallery {
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+	-webkit-column-width: 33%;
+	-moz-column-width: 33%;
+	column-width: 33%;
+}
+.gallery .pics {
+	-webkit-transition: all 350ms ease;
+	transition: all 350ms ease;
+}
+.gallery .animation {
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+}
+.mainBody {
+	width: 75%;
+	margin: auto;
+}
+.row {
+	padding-top: 50px;
+}
+/*Profilpage gallery */
+
+.profilsidan {
+	overflow-x: hidden;
+}
+.col {
+	padding-top: 50px;
+}
+.avatar.mx-auto.white {
+	float: right;
+}
+.button0 {
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+.btn-outline-default {
+	color: gray!important;
+	background-color: transparent!important;
+	border: 2px solid gray!important;
+}
+.button1 {
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+/*Profilpage contact*/
+
+h5.font-weight-bold {
+	color: black;
+}
+p.mb-4.pb-2 {
+	color: black;
+}
+.rgba-black-strong, .rgba-black-strong:after {
+	background-color: white!important;
+}
+.btn-primary {
+	color: #fff;
+	background-color: #82ad8e!important;
+}
+/*Profilpage media adjust*/
+
+@media only screen and (max-width: 600px) {
+	body {
+		overflow-x: hidden;
+	}
+	.picture {
+		display: none;
+	}
+	.container {
+		column-count: 1;
+	}
+}
+/*Loginpage media adjust*/
+
+@media only screen and (max-width: 900px) {
+	.card {
+		margin: 0px;
+	}
+}

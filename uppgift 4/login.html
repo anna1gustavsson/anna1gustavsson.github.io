@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Login</title>
+  <!-- MDB icon -->
+ 
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  
+</head>
+<body>
+
+  <!-- Start your project here-->  
+  <!-- Material form register -->
+<div class="card" id="logincard">
+
+
+    <h5 class="card-header info-color white-text text-center py-4">
+	<div class="container">
+  <div class="row">
+    <div class="col-1">
+	<a href="index.html"> <i class="fas fa-angle-left fa-2x white-text"></i></a></div>
+    <div class="col-10"> <strong>Login</strong></div>
+    
+  </div>
+ </h5>
+	
+
+    <!--Card content-->
+    <div class="card-body px-lg-5 pt-0">
+
+        <!-- Form -->
+        <form class="text-left" style="color: #757575;" action="./index.html" id="formName"  onsubmit="return checkPass()">
+		 
+           
+            <!-- Username -->
+            <div class="md-form">
+                <input type="username" class="form-control" name="username">
+            	<small  >
+                    Username
+                </small>
+            </div>
+
+            <!-- Password -->
+            <div class="md-form">
+                <input type="password"  class="form-control" name="password" >
+                
+				<small  >
+                    Password
+                </small>
+				<p id="passStatus"></p>
+               
+				<label>
+     
+            </div>
+			<div class="col-7">
+			 <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+			</div>
+           
+
+          <div class="text-center" >
+
+            <!-- Sign up button -->
+            <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit">Login</button>
+
+            <!-- Social register -->
+            <p>or Login with:</p>
+
+            <a type="button" class="btn-floating btn-fb btn-sm">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a type="button" class="btn-floating btn-tw btn-sm">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a type="button" class="btn-floating btn-li btn-sm">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a type="button" class="btn-floating btn-git btn-sm">
+                <i class="fab fa-github"></i>
+            </a>
+
+            <hr>
+
+            <!-- Forgot your password -->
+            <p>forgot your password?
+                <a href="" target="_blank">click here</a>
+			</p>
+			</div>
+        </form>
+        <!-- Form -->
+
+    </div>
+
+</div>
+<!-- Material form register -->
+  <!-- End your project here-->
+
+  <!-- jQuery -->
+ <script src="js/login.js">
+			</script>
+
+</body>
+</html>
