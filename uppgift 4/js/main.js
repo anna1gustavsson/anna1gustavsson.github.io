@@ -2,8 +2,6 @@
 
 
 
-
-
 let passSave = "ux";
 
 
@@ -37,7 +35,7 @@ function checkPass() {
 			return false;
 		} else {
 			//make the cookie
-			document.cookie = "username=Anna";
+			document.cookie = "username="+username;
 			
 			
 			console.log("make cookie");
