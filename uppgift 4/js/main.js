@@ -35,7 +35,7 @@ function checkPass() {
 			return false;
 		} else {
 			//make the cookie
-			document.cookie = "username="+username;
+			document.cookie = "username="+userName;
 			
 			
 			console.log("make cookie");
