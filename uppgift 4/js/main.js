@@ -42,7 +42,7 @@ function checkPass() {
 			
 			console.log("make cookie");
 			// if password is correct, action happends
-			//window.location.href = "index.html";
+			window.location.href = "index.html";
 			return true;
 		}
 
@@ -61,7 +61,7 @@ function makeCookie() {
 	// this is how you make a cookie
 	// its a way to save strings in for a "site"
 	document.cookie = "username=Anna";
-	console.log(make cookie);
+	
 	// 
 	//	By default, the cookie is deleted when the browser is closed
 	// 	add the expires tag with a date to set how long the cookie show last
